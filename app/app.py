@@ -2,6 +2,7 @@ import sys
 import os
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 # Fix import path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
